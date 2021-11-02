@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+
+    <head>
+        <title>jQuery Car Racr 2.0</title>
+        
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="projectcar.css">
+        
+    </head>
+    
+    <body id="race">
+        <h1>jQuery Car Racr 2.0</h1>
+        
+        <input type="button" value="Race!" id="go">
+        <input type="button" value="Reset" id="reset">
+        
+        <div id="racetrack">
+            <img src="car1.png" alt="Green car" id="car1" class="car">
+            <img src="car2.png" alt="Red car" id="car2" class="car">
+        </div>
+        
+        <div id="raceInfoContainer" class="clearfix">
+            <h2>Results</h2>
+            <div id="raceInfo1" class="raceInfo">Car 1<span></span></div>
+            <div id="raceInfo2" class="raceInfo">Car 2<span></span></div>
+        </div>
+        
+        <!-- LOAD CDN FIRST!-->
+<script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+    
+    <!-- IF CDN FAILS TO LOAD, SERVE UP THE LOCAL VERSION -->
+    <script>window.jQuery || document.write('<script src="jquery-2.2.4.js"><\/script>');</script>
+    
+        <script src="projectcar.js"></script>
+    </body>
+    
+</html>

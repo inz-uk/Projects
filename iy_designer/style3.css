@@ -1,0 +1,183 @@
+/* IY Designer */
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html { background-color: white; } 
+body {
+    min-height: 180vh;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+body {
+    background: url('img/backgroung.jpg') center center no-repeat;
+   background-size :cover;
+     overflow-x: hidden;
+}
+
+h6 {
+    position: absolute;
+     top: 118px;
+    left: 130px;
+    font-family: arial;
+    color: black;
+    display: inline-block;
+    margin-top: -60px;
+}
+
+nav ul {
+     position: absolute;
+    top: 50px;
+    right: 0px;
+      display: inline-block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+ li {
+    list-style: none;
+    text-align: right;
+     display: inline-block;
+     margin: 15px;
+     color: black;
+     margin-top: 1px;     
+}
+
+a:link {
+    text-decoration-color: black;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+
+a:visited {
+    color:black;
+}
+
+a:hover {
+    color: purple;
+}
+
+.color {
+    color: #0f2fef;
+    
+}
+
+#text {
+    font-family: arial;
+    font-size: 18pt;
+    font-weight: 300;
+    margin: 40px;
+    text-align: justify;
+    width:99%;
+}
+
+#image7 {
+    transform: translateX(999px) translateY(60px);  
+}
+
+#image8 {
+    transform: translateX(800px) translateY(-15px);  
+
+}
+#text1 {
+    text-align: center;
+    color: black;
+    font-family: arial;
+    font-size: 18pt;
+    font-weight: 600;
+    transform: translateX(210px) translateY(-170px);
+}
+
+#tickBoxes1 {
+    font-family: arial;
+    font-size: 12pt;
+    color: black;
+     transform: translateX(5px) translateY(-230px);
+    
+}
+
+p{
+    font-family: arial;
+    font-size: 12pt;
+    color: black;
+    transform: translateX(5px) translateY(-240px);
+    
+}
+
+h5{
+    font-family: arial;
+    font-size: 24pt;
+    color: black;
+    font-weight: 100;
+    transform: translateX(5px) translateY(-260px);    
+}
+
+
+#tickTick{
+    padding:20px;
+    margin: 0 0 30px;
+  
+    border-top: none;
+    display: block;
+    font-size: 18px;
+   
+    color: black;
+    font-family: arial;
+    border-width: 50%;
+    transform: translateX(-15px) translateY(-200px);
+}
+
+label {
+    font-size: 12px;
+    text-transform: full-width;
+}
+
+input[type="submit"] {
+
+   background:#55556c;
+    height: 40px;
+    border: solid 3px grey ;
+    padding: 0 40px;
+    box-shadow: 5px 5px #555;
+    transform: translateX(1130px) translateY(80px); 
+    
+}
+input [type="submit"]:hover {
+    cursor:pointer;
+    border-color:black;
+}
+input [type="submit"]:active {
+    border-color:#111;
+    outline-color: beige;
+    position: relative;
+    top: 1px;
+}
+
+
+footer 
+    {
+        font-family: arial; 
+  color: #c6c2c2;
+    font-size: 14;
+    text-decoration: none;
+    clear: both;
+    position: relative;
+    z-index: 10;
+    height: -40em;
+    margin-top: 5em;
+        margin-left:-20px;
+}
+    
+
+
+    
+
+
+
